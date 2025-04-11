@@ -1,42 +1,31 @@
-# Nuxt 3 Minimal Starter
+# Voyage au Pays des Histoires
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+**Voyage au Pays des Histoires** est une application interactive conçue pour stimuler l’intérêt des enfants pour la lecture. Grâce à un système narratif immersif, une lecture audio intégrée et des quiz de compréhension, les jeunes lecteurs sont invités à découvrir des mondes imaginaires tout en développant leur vocabulaire et leur compréhension de texte.
 
-## Setup
+---
 
-Make sure to install the dependencies:
+## Fonctionnalités principales
+
+- Lecture interactive avec synthèse vocale (Web Speech API)
+- Histoires découpées en chapitres, faciles à suivre
+- Questions de compréhension après chaque section
+- Interface intuitive et adaptée aux enfants
+- Compatible avec mobiles, tablettes et ordinateurs
+
+---
+
+## Aperçu rapide
+
+> Une interface colorée, une voix qui lit l’histoire, des questions pour s’amuser… tout est pensé pour rendre la lecture vivante et ludique.
+
+---
+
+## Installation
+
+Cloner le dépôt et lancer l’application localement :
 
 ```bash
-# yarn
-yarn install
-
-# npm
+git clone https://github.com/gaye-lamine/Voyage-au-Pays-des-Histoires
+cd Voyage-au-Pays-des-Histoires
 npm install
-
-# pnpm
-pnpm install
-```
-
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
 npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
